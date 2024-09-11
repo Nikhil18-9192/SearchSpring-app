@@ -31,7 +31,6 @@ function Home() {
             const filteredProducts = products.filter((product) => {
                 return product.category === e.target.value
             })
-            console.log(filteredProducts)
             setFilterProduct(filteredProducts)
         }else{
             setFilterProduct(products)
